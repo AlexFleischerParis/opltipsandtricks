@@ -1,0 +1,6 @@
+
+
+    SheetConnection s("output.xls");
+
+    cell to SheetWrite(s,sheetWriteString);
+

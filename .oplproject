@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="changetuplesetinaloop" category="opl">
+			<ref name="changetuplesetinaloop.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="severalincrementalchanges" category="opl">
+			<ref name="severalincrementalchanges.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="rangearrays" category="opl">
+			<ref name="rangearrays.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="namedconstraintinaforall" category="opl">
+			<ref name="namedconstraintinaforall.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="fasterslicing" category="opl">
+			<ref name="fasterslicing.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="barchart" category="opl">
+			<ref name="barchart.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="piechart" category="opl">
+			<ref name="piechart.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="setanycplexparameter" category="opl">
+			<ref name="setanycplexparameter.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="R1C1" category="opl">
+			<ref name="R1C1.dat" type="data">
+			</ref>
+			<ref name="R1C1.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="convertarray" category="opl">
+			<ref name="convertarray.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="outputasinput" category="opl">
+			<ref name="outputasinput.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="displayanyfunction" category="opl">
+			<ref name="displayanyfunction.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="positionofintervalinsequence" category="opl">
+			<ref name="positionofintervalinsequence.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cryptarithm" category="opl">
+			<ref name="cryptarithm.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="genericindexarray" category="opl">
+			<ref name="genericindexarray.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="cplexversion" category="opl">
+			<ref name="cplexversion.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="displayfloatwithgivenprecision" category="opl">
+			<ref name="displayfloatwithgivenprecision.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="dualMIP" category="opl">
+			<ref name="dualMIP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="ifinclude" category="opl">
+			<ref name="ifinclude.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="exporttojson" category="opl">
+			<ref name="exporttojson.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="minimumspanningtree" category="opl">
+			<ref name="minimumspanningtree.mod" type="model">
+			</ref>
+			<ref name="minimumspanningtree.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="turncsvintodat" category="opl">
+			<ref name="turncsvintodat.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="modelingassistance" category="opl">
+			<ref name="modelingassistance.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="input" category="opl">
+			<ref name="input.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="alldifferent" category="opl">
+			<ref name="alldifferent.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="turnjsonintodat" category="opl">
+			<ref name="turnjsonintodat.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="turntuplesetinto2Darray" category="opl">
+			<ref name="turntuplesetinto2Darray.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="displayscriptingarray" category="opl">
+			<ref name="displayscriptingarray.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="ternary" category="opl">
+			<ref name="ternary.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
