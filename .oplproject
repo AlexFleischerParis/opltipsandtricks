@@ -129,6 +129,10 @@
 			<ref name="largestemptyrectangle.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="largestemptybox" category="opl">
+			<ref name="largestemptybox.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
