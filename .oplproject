@@ -121,6 +121,14 @@
 			<ref name="ternary.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="hostilebrothers" category="opl">
+			<ref name="hostilebrothers.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="largestemptyrectangle" category="opl">
+			<ref name="largestemptyrectangle.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
