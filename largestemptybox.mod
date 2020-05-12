@@ -2,9 +2,14 @@ using CP;
 
 int n=50;
 
-
-
 int m=1000;
+
+//int sr;
+//execute
+//{
+//  var r=new Date();
+//  sr=Opl.srand(r.getMilliseconds());
+//}
 
 int pointx[i in 1..n]=rand(m);
 int pointy[i in 1..n]=rand(m);
@@ -29,11 +34,10 @@ subject to
 
 forall(i in 1..n) 
    (x1 >= pointx[i]) ||  (x2 <= pointx[i]) || (y1 >= pointy[i]) ||  (y2 <= pointy[i])
-   || (z1 >= pointz[i]) ||  (y2 <= pointz[i]);
+   || (z1 >= pointz[i]) ||  (z2 <= pointz[i]); 
             
-       
 }
 
-// which gives 0.3302399 in 1s
+// which gives 0.18 in 2s
 
 
