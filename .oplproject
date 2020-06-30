@@ -133,6 +133,10 @@
 			<ref name="largestemptybox.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="turn2Darrayintotupleset" category="opl">
+			<ref name="turn2Darrayintotupleset.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
