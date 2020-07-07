@@ -137,6 +137,10 @@
 			<ref name="turn2Darrayintotupleset.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="interpolatewithpiecewiselinear" category="opl">
+			<ref name="interpolatewithpiecewiselinear.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
