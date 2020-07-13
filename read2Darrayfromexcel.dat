@@ -1,3 +1,5 @@
+// .mod at https://github.com/AlexFleischerParis/opltipsandtricks/blob/master/read2Darrayfromexcel.mod
+
 SheetConnection sheet("array.xlsx");
 
 origin from SheetRead(sheet,"B1:D1");

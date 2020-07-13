@@ -1,5 +1,7 @@
 // Read 2D array from Excel
 //
+// .dat at https://github.com/AlexFleischerParis/opltipsandtricks/blob/master/read2Darrayfromexcel.dat
+//
 // More tips and tricks in 
 //
 // https://www.linkedin.com/pulse/tips-tricks-opl-cplex-alex-fleischer/
