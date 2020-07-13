@@ -1,0 +1,7 @@
+SheetConnection sheet("array.xlsx");
+
+origin from SheetRead(sheet,"B1:D1");
+destination from SheetRead(sheet,"A2:A3") ;
+
+value from SheetRead(sheet,"B2:D3");
+

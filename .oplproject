@@ -141,6 +141,12 @@
 			<ref name="interpolatewithpiecewiselinear.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="read2Darrayfromexcel" category="opl">
+			<ref name="read2Darrayfromexcel.dat" type="data">
+			</ref>
+			<ref name="read2Darrayfromexcel.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
