@@ -147,6 +147,10 @@
 			<ref name="read2Darrayfromexcel.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="kmeans" category="opl">
+			<ref name="kmeans.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
