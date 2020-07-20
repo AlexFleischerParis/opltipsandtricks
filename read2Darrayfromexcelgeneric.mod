@@ -8,6 +8,10 @@ value from SheetRead(sheet,"B2:D3");
 
 In this example, let's see how we can compute this with prepare and invoke in OPL
 
+.dat in
+
+https://github.com/AlexFleischerParis/opltipsandtricks/blob/master/read2Darrayfromexcelgeneric.dat
+
 */
 
 {string} origin=...;
