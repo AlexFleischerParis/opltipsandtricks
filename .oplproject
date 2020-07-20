@@ -151,6 +151,12 @@
 			<ref name="kmeans.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="read2Darrayfromexcelgeneric" category="opl">
+			<ref name="read2Darrayfromexcelgeneric.mod" type="model">
+			</ref>
+			<ref name="read2Darrayfromexcelgeneric.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

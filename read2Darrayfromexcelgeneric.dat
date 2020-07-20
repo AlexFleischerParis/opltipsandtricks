@@ -1,0 +1,49 @@
+
+ 
+ prepare {     
+ 
+ 
+    // http://cwestblog.com/2013/09/05/javascript-snippet-convert-number-to-column-name/
+    function toColumnName(num) {
+      for (var ret = '', a = 1, b = 26; (num -= a) >= 0; a = b, b *= 26) {
+        ret = String.fromCharCode(parseInt((num % b) / a) + 65) + ret;
+      }
+      return ret;
+    }
+
+    // 1,1 => A1  1,4 => D1 2,27 => AA2
+    function convertR1C1toA1(r,c)
+    {
+    return(toColumnName(c)+r);
+    }
+ 
+   // compute the SheetRead string                                 
+   function computeSheetReadString(s, name) {   
+     
+      var nbOrigin=0;
+      var nbDestination=0;
+      for(var i in origin) if (i!="") nbOrigin++;
+      for(var i in destination) if (i!="") nbDestination++;
+     
+      s[1]="B2:"+convertR1C1toA1(nbDestination+1,nbOrigin+1);
+      return true;
+   }   
+   
+   // remove empty strings
+   function removeempty(s, name) {   
+                    
+      s.remove("");
+      return true;
+   }   
+}
+SheetConnection sheet(sheetConnectionString);
+origin from SheetRead(sheet,"B1:ZZ1") invoke removeempty;
+destination from SheetRead(sheet,"A2:A1000") invoke removeempty;
+
+
+
+
+sheetReadString=[" "] invoke computeSheetReadString;
+
+value from SheetRead(sheet,theSheetReadString);
+ 
