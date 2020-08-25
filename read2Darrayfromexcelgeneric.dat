@@ -44,6 +44,5 @@ destination from SheetRead(sheet,"A2:A1000") invoke removeempty;
 
 
 sheetReadString=[" "] invoke computeSheetReadString;
-
 value from SheetRead(sheet,theSheetReadString);
  
