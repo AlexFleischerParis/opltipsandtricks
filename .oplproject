@@ -161,6 +161,10 @@
 			<ref name="popup.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="buildseveralstrings" category="opl">
+			<ref name="buildseveralstrings.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
