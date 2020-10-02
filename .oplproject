@@ -165,6 +165,8 @@
 			<ref name="buildseveralstrings.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="factorformulawithdexpr" category="opl">
+		</config>
 	</configs>
 	
 </project>
