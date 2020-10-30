@@ -16,13 +16,15 @@ execute
 int n=50;
 int m=100;
 
+range r=1..n;
+
 tuple t
 {
   int i;
   int j;
 }
 
-{t} brothers={<i,j> | ordered i,j in 1..n};
+{t} brothers={<i,j> | ordered i,j in r};
 
 dvar int x[i in 1..n]  in 0..m;
 dvar int y[i in 1..n]  in 0..m;
@@ -43,3 +45,40 @@ which gives
 with a 60 s time limit 
 
 */
+
+execute
+{
+
+var o=new IloOplOutputFile("c:\\temp\\paramdisplaypoints.txt");
+
+
+for(var i in r) 
+{
+ o.write(x[i]);
+ if (i!=n) o.write(",");
+}
+o.writeln();
+
+for(var i in r) 
+{
+ o.write(y[i]);
+ if (i!=n) o.write(",");
+}
+o.writeln();
+
+for(var i in r) 
+{
+ o.write(1);
+ if (i!=n) o.write(",");
+}
+o.writeln();
+
+
+o.close();
+
+IloOplExec("C:\\Python36\\python.exe c:\\temp\\displaypoints.py",false);
+
+}
+
+
+
