@@ -166,6 +166,14 @@
 			</ref>
 		</config>
 		<config default="false" name="factorformulawithdexpr" category="opl">
+			<ref name="factorformulawithdexpr.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="array2Dintupleset" category="opl">
+			<ref name="array2Dintupleset.dat" type="data">
+			</ref>
+			<ref name="array2Dintupleset.mod" type="model">
+			</ref>
 		</config>
 	</configs>
 	
