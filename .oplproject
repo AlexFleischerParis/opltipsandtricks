@@ -175,6 +175,14 @@
 			<ref name="array2Dintupleset.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="closestpointsclustercpo" category="opl">
+			<ref name="closestpointsclustercpo.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="closestpointsclustermip" category="opl">
+			<ref name="closestpointsclustermip.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
