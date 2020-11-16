@@ -1,3 +1,5 @@
+// Finding a cluster of closest points 
+
 using CP;
 
 int scale=1000000;

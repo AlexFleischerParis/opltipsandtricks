@@ -1,4 +1,4 @@
-
+// Finding a cluster of closest points 
 
 int scale=1000000;
 
@@ -13,6 +13,7 @@ float x[p in points][d in dim]=rand(scale)/scale;
 
 float distance[p1 in points][p2 in points]=sqrt(sum(d in dim)((x[p1][d]-x[p2][d])^2));
 
+// Should we keep that point ?
 dvar  boolean which[points];
 
 dexpr float maxDist=max(ordered i,j in points) distance[i][j]*((which[i]==1) && (which[j]==1));
