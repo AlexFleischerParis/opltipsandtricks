@@ -24,12 +24,6 @@ subject to
   sum (p in points) which[p]==m;
 }
 
-execute
-{
-  x;
-}
-
-
 {int} chosenPoints={k | k in points:which[k]==1};
 
 // Display graph
