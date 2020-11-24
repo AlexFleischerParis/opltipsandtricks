@@ -183,6 +183,12 @@
 			<ref name="closestpointsclustermip.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="turndistancematrixintoxyarray" category="opl">
+			<ref name="turndistancematrixintoxyarray.mod" type="model">
+			</ref>
+			<ref name="berlin52.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
