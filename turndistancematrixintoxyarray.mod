@@ -76,3 +76,11 @@ o.close();
 IloOplExec("C:\\Python36\\python.exe c:\\temp\\displaypoints.py",false);
 
 }
+
+execute
+{
+  var f=new IloOplOutputFile("pos.dat");
+  f.writeln("posx=",x,";");
+  f.writeln("posy=",y,";");
+  f.close();
+}
