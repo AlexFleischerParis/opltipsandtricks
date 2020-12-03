@@ -189,6 +189,18 @@
 			<ref name="berlin52.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="pack2DMIP" category="opl">
+			<ref name="pack2DMIP.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="pack2DCPO" category="opl">
+			<ref name="pack2DCPO.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="pack2Dsched" category="opl">
+			<ref name="pack2Dsched.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
