@@ -2,7 +2,8 @@ using CP;
 
 execute
 {
-  cp.param.timelimit=400;
+  cp.param.timelimit=40;
+  //cp.param.searchtype="Neighborhood";
 }
 
 int n=100;
@@ -26,8 +27,8 @@ int pointy[i in 1..n]=clustery[cluster[i]]+rand(r);
 
 
 // which centers for clusters
-dvar int cx[M];
-dvar int cy[M];
+dvar int cx[M] in 0..2*p*r;
+dvar int cy[M] in 0..2*p*r;
 // which cluster for each point
 dvar int x[points] in M;
 
